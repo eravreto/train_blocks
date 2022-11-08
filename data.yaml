@@ -2,7 +2,7 @@ train: ../train_blocks/images/train  # train images (relative to 'path') 128 ima
 val: ../train_blocks/images/val  # val images (relative to 'path') 128 images
 
 nc: 11
-names: ['block1', 'block10', 'block11', 'block2', 'block3', 'block4', 'block5', 'block6', 'block7', 'block8', 'block9']
+names: ['X1-Y1-Z2', 'X2-Y2-Z2', 'X2-Y2-Z2-FILLET', 'X1-Y2-Z1', 'X1-Y2-Z2', 'X1-Y2-Z2-CHAMFER', 'X1-Y2-Z2-TWINFILLET', 'X1-Y3-Z2', 'X1-Y3-Z2-FILLET', 'X1-Y4-Z1', 'X1-Y4-Z2']
 
 roboflow:
   workspace: project
