@@ -1,0 +1,12 @@
+train: ../train_blocks/images/train  # train images (relative to 'path') 128 images
+val: ../train_blocks/images/val  # val images (relative to 'path') 128 images
+
+nc: 11
+names: ['block1', 'block10', 'block11', 'block2', 'block3', 'block4', 'block5', 'block6', 'block7', 'block8', 'block9']
+
+roboflow:
+  workspace: project
+  project: blocks-vm4fd
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/blocks-vm4fd/dataset/1
